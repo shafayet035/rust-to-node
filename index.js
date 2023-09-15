@@ -1,4 +1,6 @@
-const { multiply } = require('./index.node');
+const { multiply, sum } = require('./index.node');
 
 
-console.log("The result is", multiply(10, 20));
+console.log("Multiply Function test", multiply(10, 20));
+
+console.log("Sum Function test", sum(10, 20));
